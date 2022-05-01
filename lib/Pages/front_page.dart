@@ -18,46 +18,58 @@ class FrontPage extends StatelessWidget {
                   backgroundImage: AssetImage("assets/photos/logo.png"),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 30,
               ),
               "Is your Drone Ready to Connect ?".text.center.bold.xl4.make(),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () => showDialog<String>(
+                  context: context,
+                  builder: (BuildContext context) => AlertDialog(
+                    title: const Text('Connecting...'),
+                    content: const Text('Wait while your Drone is Connecting.'),
+                    actions: <Widget>[
+                      TextButton(
+                        onPressed: () => Navigator.pop(context, 'Cancel'),
+                        child: const Text('Cancel'),
+                      ),
+                    ],
+                  ),
+                ),
                 child: const Text("Connect"),
                 style: ElevatedButton.styleFrom(
-                  fixedSize: Size(200, 60),
+                  fixedSize: const Size(200, 60),
                   primary: Colors.black,
                   textStyle: const TextStyle(
                     fontSize: 20,
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               ElevatedButton(
                 onPressed: () {},
                 child: const Text("Mission Planner"),
                 style: ElevatedButton.styleFrom(
-                  fixedSize: Size(200, 60),
+                  fixedSize: const Size(200, 60),
                   primary: Colors.black,
                   textStyle: const TextStyle(
                     fontSize: 20,
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               ElevatedButton(
                 onPressed: () {},
                 child: const Text("Airspace"),
                 style: ElevatedButton.styleFrom(
-                  fixedSize: Size(200, 60),
+                  fixedSize: const Size(200, 60),
                   primary: Colors.black,
                   textStyle: const TextStyle(
                     fontSize: 20,
