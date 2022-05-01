@@ -10,4 +10,4 @@ Things that makes this App more interactive and useful-
 - You can Control your Machine directly form Mobile App.<br>
 
 
-Made with ❤️ by <b>Mayank Agarwal</b>.
+### Made with ❤️ by Mayank Agarwal.
