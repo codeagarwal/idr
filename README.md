@@ -1,16 +1,13 @@
-# idr_aircontrol
+# IDR Research & Development Pvt. Ltd.
 
-A new Flutter project.
+This is an official Repo of <b>Mobile Application</b> of IDR.
 
-## Getting Started
+## Mobile based AIR CONTROLER
 
-This project is a starting point for a Flutter application.
+Things that makes this App more interactive and useful- 
 
-A few resources to get you started if this is your first Flutter project:
+- Both Android and iOS Compatible.
+- You can Control your Machine directly form Mobile App.<br>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Made with ❤️ by <b>Mayank Agarwal</b>.
